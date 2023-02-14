@@ -77,8 +77,17 @@ html{
       width: 100%;
       height: 50vh;
       object-fit: cover;
-    
-    
+   }
+   .book-card-body{
+      height: 50vh;
+   }
+}
+
+@media screen and (min-width:1600px){
+   .book-card img{
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
    }
    .book-card-body{
       height: 50vh;
